@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(65, 65, 65);
+    }
+
+    .div1 {
+        text-align: center;
+    }
+
+    .header {
+        background-color: yellow;
+        box-shadow: 0px 10px 0 black;
+        margin: 0px;
+        padding: 10px 0px;
+        text-align: center;
+        color: rgb(82, 82, 82);
+    }
+
+    .tra-logo img {
+        width: 70px;
+    }
+
+    .startof {
+        text-align: center;
+    }
+
+    .comp-detail {
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .customer-detail,
+    .risiti-details {
+        line-height: 22px;
+    }
+
+    .purchase {
+        font-size: 30px;
+        color: rgb(114, 114, 114);
+    }
+
+    .div01 {
+        display: grid;
+        grid-template-columns: 6fr 1fr 1fr;
+        align-items: baseline;
+        color: rgb(114, 114, 114);
+    }
+
+    .div02 {
+        display: grid;
+        grid-template-columns: 6fr 1fr 1fr;
+        background-color: rgb(175, 174, 174, 0.2);
+    }
+
+    .div03{
+        display: grid;
+        grid-template-columns: 7fr 1fr;
+    }
+
+    .div04{
+        align-items: center;
+        text-align: center;
+        color: rgb(65, 65, 65);
+        margin-bottom: 50px;
+    }
+
+    .div04 img{
+        width: 70px;
+    }
+    .div04 button{
+        background-color: yellow;
+        border: none;
+        padding: 5px 15px;
+    }
+</style>
+<body>
+
+    <header style="color: rgb(114, 114, 114);">
+        <div class="div1">
+            <p class="header"><span style="font-weight: ;">TAXPAYER RECEIPT VERIFICATION PORTAL</span> </p>
+    
+            <P class="startof"><b>***START OF LEGAL RECEIPT***</b> </P>
+        
+            <p class="tra-logo"><img src="TRA.png" alt="tra logo"></p>
+        </div>
+    
+    
+        <hr>
+        <p class="comp-detail">
+            <b>JAMES JONAS ANDREW</b> <br>
+            <b>P.O BOX 291</b>  <br>
+            <b>MOBILE:</b>  0682043883 <br>
+            <b>TIN:</b>  119244145  <br>
+            <b>VRN:</b>  40058951F <br>
+            <b>SERIAL NO:</b>  03TZ772003604 <br>
+            <b>UIN:</b>  01INCOTEX777-10587530411524414003TZ772003604 <br>
+            <b>TAX OFFICE:</b>  Tax Office Dodoma
+        </p>
+    </header>
+
+
+    <section style="margin: 0px 10px; color: rgb(114, 114, 114);">
+        <hr style="border: 1px dashed;">
+        <p class="customer-detail">
+            <b>CUSTOMER NAME:</b>  CASH <br>
+            <b>CUSTOMER ID TYPE:</b>  TAXPAYER INDETIFICATION NUMBER <br>
+            <b>CUSTOMER ID:</b>  123456789 <br>
+            <b>CUSTOMER MOBILE:</b>  n/a
+        </p>
+    
+        <hr>
+    
+        <p class="risiti-details">
+            <b>RECEIPT NO:</b>  4476 <br>
+            <b>Z NUMBER:</b>  3/1258 <br>
+            <b>RECEIPT DATE:</b>  2024-03-05 <br>
+            <b>RECEIPT TIME:</b>  13:24:43
+        </p>
+        
+        <hr>
+
+        <P class="purchase"> Purchased Items </P>
+
+        <hr>
+
+        <div class="div01">
+            <p> Description </p>
+            <p> Qty </p>
+            <p> Amount </p>
+        </div>
+        <hr>
+        <div class="div02">
+            <p> STATIONARY </p>
+            <P> 1 </P>
+            <P> 7,000,000.00 </P>
+        </div>
+
+        <div class="div03">
+            <P>TOTAL EXCL OF TAX:</P>
+            <p>5,740,000.00</p>
+            <P>TAXRATE A (18%)</P>
+            <p>1,260,000.00</p>
+            <P>TOTAL TAX:</P>
+            <p>1,260,000.00</p>
+            <P>TOTAL INCL OF TAX:</P>
+            <p>7,000,000.00</p>
+        </div>
+        <hr>
+     
+    </section>
+
+    <footer style="color: rgb(114, 114, 114); margin: 0px 10px">
+        <div class="div04">
+            <P>RECEIPT VERIFICATION CODE
+             <p>458E14476</p>   
+            </P>
+
+            <hr>
+
+            <img src="qr-code.png" alt="">
+
+            <hr>
+
+            <p>***END OF LEGAL RECEIPT***</p>
+            <button><img src="" alt="">Print Receipt</button>
+        </div>
+
+        <p style="text-align: center; font-size: 10px;">2024 - TRA Receipt Verification Portal</p>
+    </footer>
+    
+</body>
+</html>
